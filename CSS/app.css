@@ -1,0 +1,26 @@
+h1{
+	color: rgba(255,0,0,0.2);
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 2px solid purple;
+}
+
+li{
+	color: green;
+	border: 8px dashed purple;
+}
+
+h4{
+	background: rgb(255,100,80);
+}
+
+body{
+	/*background: url(https://images.pexels.com/photos/301717/pexels-photo-301717.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	background: lightgray;
+}
+
+/*border
+Width - Color - Style*/
