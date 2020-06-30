@@ -1,0 +1,5 @@
+Some resource links
+
+CSS colors - https://colours.neilorangepeel.com/ 
+Fonts - https://www.cssfontstack.com/
+	  - https://fonts.google.com/
