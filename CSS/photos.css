@@ -1,12 +1,13 @@
-div {
-	width: 100px;
+img {
+	width: 30%;
 	float: left;
+	margin: 1.66%;
 }
 
-#one {
-	background-color: red;
+p {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	margin-left: 1.66%;
+	font-size: 23px;
 }
 
-#two {
-	background-color: purple;
-}
