@@ -9,8 +9,14 @@
 
     <h1>Forms Demo</h1> 
 
+    <button>OUTSIDE FORM</button>
+
     <!-- action specifies where the form data should be sent to --> 
     <form action="">
+
+        <!-- Behaves like a normal button where it dones perform any action unless explictly specified -->
+        <button type="button">PLEASE DO NOT SUBMIT THE FORM</button> 
+
         <p>
             <label for="username">Enter a Username:</label>
             <input type="text" placeholder="username" id="username">
@@ -19,6 +25,9 @@
             <label for="password">Enter a Password:</label>
             <input type="password" placeholder="password" id="password">
         </p>
+
+        <button>IN MIDDLE</button>
+
         <p>
             <label for="color">Pick a color:</label>
             <input type="color" id="color">
@@ -27,6 +36,14 @@
             <label for="number">Enter a number:</label>
             <input type="number" placeholder="enter a number" id="number">
         </p>
+
+        <!-- Button to submit the form -->
+        <button>Submit</button>
+
+        <!-- 
+            Another way of using button
+            <input type="submit" value="Click Me!!">
+         -->
 
     </form>
     
