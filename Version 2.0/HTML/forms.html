@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms Demo</title>
 </head>
+
 <body>
 
-    <h1>Forms Demo</h1> 
+    <h1>Forms Demo</h1>
 
     <button>OUTSIDE FORM</button>
 
-    <!-- action specifies where the form data should be sent to --> 
+    <!-- action specifies where the form data should be sent to -->
     <form action="/tacos">
 
         <!-- Behaves like a normal button where it dones perform any action unless explictly specified -->
-        <button type="button">PLEASE DO NOT SUBMIT THE FORM</button> 
+        <button type="button">PLEASE DO NOT SUBMIT THE FORM</button>
 
         <p>
             <label for="username">Enter a Username:</label>
@@ -47,10 +49,21 @@
 
     </form>
 
-    <form action="https://www.google.com/search?">
+    <form action="https://www.google.com/search">
         <input type="text" name="q">
         <button type="submit">Search Google</button>
     </form>
-    
+
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button type="submit">Search Google</button>
+    </form>
+
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button type="submit">Search Google</button>
+    </form>
+
 </body>
+
 </html>
