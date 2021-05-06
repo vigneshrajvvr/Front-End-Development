@@ -1,7 +1,28 @@
 /* External styling - RECOMMENDED */
+
+/* 
+
+COLORS 
+
+RGB: 0 - 255
+rgb(*Red, *Green, *Blue)
+rgb(255,0,0) - Red
+rgb(0,255,0) - Green
+rgb(0,0,255) - Blue
+rgb(0,0,0)  - Black
+
+Hexadecimal: 0 - 255
+# __ __ __ - Similar to rgb
+#ffff00
+
+If two characters of a color is same then it can be represented as a single character
+If #000000 then it can be used as #000
+
+*/
+
 h2 {
-    color: teal;
-    background-color: plum;
+    color: #5FCFFC;
+    background-color: rgb(89, 151, 0);
 }
 
 button {
@@ -13,3 +34,5 @@ p {
     color:olive;
     background: orange;
 }
+
+
