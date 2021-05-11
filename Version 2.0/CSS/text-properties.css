@@ -1,0 +1,21 @@
+/* Text properties act within the range of the elemet select */
+h1 {
+    text-align: center;    /* text-align: right; */
+    width: 50%;
+    font-weight: 900;      /* Specifies the thickness of the font*/
+    text-decoration: red wavy underline;
+}
+
+p {
+    text-align: center;
+    line-height: 120%;     /* Line - height: spacing between lines */ 
+    letter-spacing:2px;    /* Spacing between characters */
+}
+
+
+/* 
+This will remove all the decorations of anchor tag including underline
+
+a {
+    text-decoration: none;        
+} */
