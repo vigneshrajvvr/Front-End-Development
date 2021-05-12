@@ -4,12 +4,15 @@ h1 {
     width: 50%;
     font-weight: 900;      /* Specifies the thickness of the font*/
     text-decoration: red wavy underline;
+    font-size: 100px;      /* Specifies the font size. Recommended, Absolute - px*/
 }
 
 p {
     text-align: center;
     line-height: 120%;     /* Line - height: spacing between lines */ 
     letter-spacing:2px;    /* Spacing between characters */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+                           /* Specifies type of font to be used. We can provide series of fonts in order to user* /
 }
 
 
