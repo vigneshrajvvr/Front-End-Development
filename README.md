@@ -1,1 +1,1 @@
-This repository contains learning excercises from web-developer-bootcamp udemy course.
+This repository contains HTML and CSS learnings.
