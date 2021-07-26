@@ -1,1 +1,1 @@
-This repository contains HTML and CSS learnings.
+Repository contains learnings of HTML5 and CSS3 and projects related to it.
